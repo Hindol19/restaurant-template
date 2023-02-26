@@ -1,0 +1,43 @@
+.contactForm_container {
+  border-radius: 15px;
+  padding: 5%;
+  width: 50%;
+}
+.contact_form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.form_item {
+  margin: 2%;
+  padding: 3%;
+  width: 100%;
+  border-radius: 25px;
+  border: none;
+}
+.form_item::placeholder {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-family: "Golos Text", sans-serif;
+}
+.form_sub {
+  width: 40%;
+}
+@media only screen and (max-width: 992px) {
+  .form_item::placeholder {
+    font-size: 1rem;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .form_item::placeholder {
+    font-size: 0.7rem;
+  }
+}
+
+@media only screen and (max-width: 356px) {
+  .form_item::placeholder {
+    font-size: 0.6rem;
+  }
+}

@@ -1,0 +1,106 @@
+.contact_container {
+  background: linear-gradient(#2c0e0e, #100f0f);
+  height: 1800px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+}
+.top {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 4%;
+  height: 70%;
+  width: 100%;
+  margin-top: -10%;
+}
+.contact_img {
+  width: 50%;
+  height: 50%;
+  overflow: hidden;
+  /* margin: 1%; */
+  /* border: 2px solid yellow; */
+}
+.leftImg {
+  margin-top: 8%;
+  background: url("https://images.unsplash.com/photo-1533143708019-ea5cfa80213e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1203&q=80")
+    no-repeat center center/cover;
+}
+.leftImgText {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.741);
+  color: white;
+  font-size: 3rem;
+  display: none;
+  font-family: "Inspiration", cursive;
+}
+.leftImg:hover .leftImgText {
+  display: flex;
+  flex-direction: column-reverse;
+  padding: 4%;
+}
+.rightImg {
+  margin-top: -8%;
+  background: url("https://images.unsplash.com/photo-1615887147319-77c2c0a4deb0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80")
+    no-repeat center center/cover;
+}
+.rightImgText {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.807);
+  color: white;
+  font-size: 3rem;
+  display: none;
+  font-family: "Inspiration", cursive;
+  transition: 1.3s;
+}
+.rightImg:hover .rightImgText {
+  display: flex;
+  flex-direction: row-reverse;
+  padding: 4%;
+}
+.bottom {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.contact_head {
+  color: white;
+  font-family: "Golos Text", sans-serif;
+}
+@media only screen and (max-width: 992px) {
+  .contact_container {
+    height: 1000px;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .top {
+    flex-direction: column;
+    margin-bottom: 2%;
+  }
+  .contact_container {
+    height: 760px;
+  }
+  .contact_head {
+    margin-bottom: 0;
+    font-size: 1.5rem !important;
+  }
+  .leftImg {
+    margin: 11% 1%;
+    width: 100%;
+  }
+  .rightImg {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 476px) {
+  .contact_head {
+    font-size: 1.1rem !important;
+  }
+}
