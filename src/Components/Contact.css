@@ -55,9 +55,9 @@
   font-size: 3rem;
   display: none;
   font-family: "Inspiration", cursive;
-  transition: 1.3s;
 }
 .rightImg:hover .rightImgText {
+  transition: 1.3s;
   display: flex;
   flex-direction: row-reverse;
   padding: 4%;
@@ -98,9 +98,21 @@
   .rightImg {
     width: 100%;
   }
+  .rightImgText {
+    font-size: 2rem;
+  }
+  .leftImgText {
+    font-size: 2rem;
+  }
 }
 @media only screen and (max-width: 476px) {
   .contact_head {
     font-size: 1.1rem !important;
+  }
+  .rightImgText {
+    font-size: 1.5rem;
+  }
+  .leftImgText {
+    font-size: 1.5rem;
   }
 }

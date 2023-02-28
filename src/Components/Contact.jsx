@@ -13,7 +13,6 @@ function Contact() {
           <div className="rightImgText">Our Special 2</div>
         </div>
       </div>
-
       <div id="Contact" className="bottom">
         <h1 className="contact_head">We Appriciate your feedback :)</h1>
         <ContactForm />
