@@ -6,10 +6,10 @@ function Contact() {
   return (
     <div className="contact_container">
       <div className="top">
-        <div className="leftImg contact_img">
+        <div data-aos="fade-right" className="leftImg contact_img">
           <div className="leftImgText">Our Special 1</div>
         </div>
-        <div className="rightImg contact_img">
+        <div data-aos="fade-left" className="rightImg contact_img">
           <div className="rightImgText">Our Special 2</div>
         </div>
       </div>
