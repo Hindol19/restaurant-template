@@ -1,6 +1,6 @@
 .home_container {
   background-color: black;
-  height: 1000px;
+  height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -15,7 +15,7 @@
     no-repeat center center/cover;
   width: 100%;
   opacity: 0.3;
-  height: 1000px;
+  height: 100vh;
   box-shadow: rgb(0 0 0) -22px 79px 239px -13px inset,
     rgb(0 0 0 / 47%) 66px 43px 60px 33px inset;
 }
@@ -37,10 +37,10 @@
 
 @media only screen and (max-width: 576px) {
   .home_container {
-    height: 800px;
+    height: 100vh;
   }
   .home_container::before {
-    height: 800px;
+    height: 100vh;
   }
   .Text {
     font-size: 3.1rem;
@@ -48,10 +48,10 @@
 }
 @media only screen and (max-width: 478px) {
   .home_container {
-    height: 600px;
+    height: 100vh;
   }
   .home_container::before {
-    height: 600px;
+    height: 100vh;
   }
   .Text {
     font-size: 2.2rem;

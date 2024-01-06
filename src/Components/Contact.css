@@ -1,4 +1,5 @@
 .contact_container {
+  overflow: hidden;
   background: linear-gradient(#2c0e0e, #100f0f);
   height: 1800px;
   display: flex;
@@ -7,6 +8,7 @@
   /* justify-content: center; */
 }
 .top {
+  overflow: hidden;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -29,6 +31,7 @@
     no-repeat center center/cover;
 }
 .leftImgText {
+  backdrop-filter: blur(3px);
   width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.741);
@@ -43,14 +46,16 @@
   padding: 4%;
 }
 .rightImg {
+
   margin-top: -8%;
   background: url("https://images.unsplash.com/photo-1615887147319-77c2c0a4deb0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80")
     no-repeat center center/cover;
 }
 .rightImgText {
+  backdrop-filter: blur(3px);
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.807);
+  background-color: rgba(0, 0, 0, 0.707);
   color: white;
   font-size: 3rem;
   display: none;
@@ -71,7 +76,9 @@
 }
 .contact_head {
   color: white;
-  font-family: "Golos Text", sans-serif;
+  /* font-family: "Golos Text", sans-serif; */
+  font-family: "Inspiration", cursive;
+  font-size: 80px;
 }
 @media only screen and (max-width: 992px) {
   .contact_container {

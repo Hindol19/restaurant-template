@@ -1,0 +1,63 @@
+.navbarMob-container {
+  padding: 8px 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 70px;
+  width: 100%;
+  position: fixed;
+  z-index: 9999;
+  color: white;
+}
+.ham-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4px;
+  border-radius: 50%;
+  border: 1px solid white;
+}
+.ham-icon svg {
+  font-size: 27px;
+}
+
+.navBox-container {
+  background-color: rgba(250, 198, 129, 0.69);
+  backdrop-filter: blur(5px);
+  position: fixed;
+  width: 80vw;
+  height: 60vh;
+  z-index: 10000;
+  border-radius: 12px;
+  left: calc(50% - 40vw);
+  top: calc(50% - 30vh);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.nav-upper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+.nav-lower {
+  margin-top: 3px;
+}
+.navMob-item {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Golos Text", sans-serif;
+  color: black;
+  margin: 7px;
+}
+.nav-lower svg {
+  font-size: 30px;
+}
+
+.nav-upper a:hover {
+  text-decoration: underline;
+}

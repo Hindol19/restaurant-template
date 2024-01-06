@@ -3,6 +3,7 @@ import "./Navbar.css";
 function Navbar() {
   return (
     <div>
+      <div className="nav-bg">u</div>
       <nav className="navbar navbar-expand-lg bg-body-tertiary">
         <div className="container-fluid">
           <button

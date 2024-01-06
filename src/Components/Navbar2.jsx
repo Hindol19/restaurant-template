@@ -5,6 +5,7 @@ import "./Navbar.css";
 function Navbar2() {
   return (
     <Navbar scrolling expand="md" fixed="top">
+      <div className="nav-bg"></div>
       <Container>
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
